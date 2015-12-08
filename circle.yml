@@ -5,3 +5,7 @@ machine:
 dependencies:
   post:
     - bower install
+
+test:
+  override:
+    - echo "hello"
